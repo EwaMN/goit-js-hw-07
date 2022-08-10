@@ -14,7 +14,7 @@ const galleryItem = galleryItems.map((galleryItem) =>
 </div>`).join("");
 gallery.innerHTML = galleryItem;
 
-gallery.insertAdjacentHTML("afterbegin", galleryItem);
+/*gallery.insertAdjacentHTML("afterbegin", galleryItem);*/
 
 gallery.addEventListener("click", (event) => {
     event.preventDefault();
