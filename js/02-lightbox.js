@@ -14,7 +14,7 @@ const galleryItem = galleryItems.map((galleryItem) =>
 
 gallery.innerHTML = galleryItem;
 
-gallery.insertAdjacentHTML("afterbegin", galleryItem);
+/*gallery.insertAdjacentHTML("afterbegin", galleryItem);*/
 
 new SimpleLightbox (".gallery a", {captionDelay:250})
 ;
